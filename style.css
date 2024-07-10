@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace,sans-serif,serif;
+}
+ul
+{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.nav,.banner,.quotes,.signup,.info
+{
+    display: flex;
+    justify-content: center;
+
+}
+.quotes,.signup,.info
+{
+    padding: 85px;
+
+}
+.content
+{
+    width: 1200px;
+}
+.nav-content
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.nav-content .logo
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+.banner-content
+{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    gap: 50px;
+}
+.banner-content .left
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.banner-content .right img
+{
+    height: 200px;
+    
+
+}
+
+.banner-content button
+{
+    outline: none;
+    border: none;
+    max-width: fit-content;
+    color :#fff;
+    background-color: #3B82F6;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;    
+}
+.footer
+{
+    background-color: #1F2937;
+    padding: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 26px;
+}
+.quote-content strong
+{
+    text-align: end;
+}
+.signup
+{
+    padding: 85px;
+}
+.signup-content
+{
+    background-color: #3B82F6;
+    border-radius:5px ;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.signup-content button
+{
+    border: 2px solid #fff;
+    color :#fff;
+    background-color: #3B82F6;
+    border-radius: 5px;
+    padding: 0px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.info-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.info-content .header
+{
+    font-size: 26px;
+    font-weight: bold;
+}
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.card
+{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.card .img
+{
+    border: 2px solid #3B82F6;
+    border-radius: 5px;
+    height: 150px;
+    flex:1 1 auto;
+}
